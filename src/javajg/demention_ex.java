@@ -149,6 +149,7 @@ public class demention_ex {
 				}
 			}
 		input2.close();
+		System.out.println("??");
 	}
 
 }
