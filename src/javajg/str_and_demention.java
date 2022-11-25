@@ -92,7 +92,7 @@ public class str_and_demention {
 					break;
 			}
 			System.out.println(result1);
-			System.out.println("ok");
+			System.out.println("oh");
 		}
 		
 	}
