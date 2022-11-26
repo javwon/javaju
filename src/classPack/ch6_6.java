@@ -36,13 +36,19 @@ public class ch6_6 {
 		
 		System.out.println(Math2.add(5, 10));
 		
-		print1();
+		MemberCall.staticMethod2();
 
 	}
 	static void print1()
 	{
 		System.out.println("hi");
 	}
+	public void print2()
+	
+	{
+		System.out.println("hi");
+	}
+	
 
 }
 
@@ -72,7 +78,10 @@ class MemberCall{
 	static void staticMethod2() {
 		staticMehod1();
 		//instanceMegod(); 사용불가능
-		
+		ch6_6.print1();
+		//ch6_6.print2();
+		ch6_6 m2= new ch6_6();
+		m2.print2();
 	}
 	
 
