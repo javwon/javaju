@@ -18,6 +18,7 @@ public class Ch6_4 {
 		change3(x);
 		change3(d.y);
 		System.out.println(d.y[0]);
+		
 	}
 	
 	static void change(int x) {
