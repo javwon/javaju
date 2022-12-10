@@ -39,6 +39,7 @@ public class Ch6_1 {
 	public void print() // 여기서 쓰는건 상관없어보이는데.. public vs static..
 	{
 		System.out.println("hello");
+		System.out.println("hi");
 	}
 
 }
