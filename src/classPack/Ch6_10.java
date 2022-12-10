@@ -59,7 +59,7 @@ class Document
 	
 	Document()
 	{
-		this("제목없음"+ ++bookNum);
+		this("제목없음"+ ++bookNum); //기본생성자 사용시에만 반응하게 만들기
 		
 	}
 	
@@ -68,6 +68,8 @@ class Document
 		this.bookName = bookName;
 		System.out.println(this.bookName+"이 생성됨");
 	}
+	
+	
 }
 
 
